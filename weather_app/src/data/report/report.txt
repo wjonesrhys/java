@@ -1,0 +1,42 @@
+                                              Weather Data Report 
+                                            Date Created: 22/04/2020 
+
+Number    Station Name         Highest (tmax)    Lowest (tmin)     Average Annual AF     Average Annual Rainfall   
+--------  -------------------  ----------------  ----------------  --------------------  -------------------------  
+1         Aberporth            7/2015            12/2012           16.0                  933.48                    
+2         Armagh               7/2015            12/2012           40.2                  855.66                    
+3         Ballypatrick Forest  7/2015            12/2012           23.2                  1415.91                   
+4         Bradford             7/2015            12/2012           39.6                  878.27                    
+5         Braemar              7/2015            12/2012           107.6                 938.53                    
+6         Camborne             7/2015            12/2012           9.0                   1085.88                   
+7         Cambridge NIAB       7/2015            12/2012           39.7                  536.16                    
+8         Cardiff Bute Park    7/2015            12/2012           37.3                  1170.36                   
+9         Chivenor             7/2015            12/2012           21.1                  966.61                    
+10        Cwmystwyth           6/2012            12/2012           85.5                  1562.73                   
+11        Dunstaffnage         7/2015            12/2012           28.0                  1766.29                   
+12        Durham               NaN               NaN               NaN                   NaN                       
+13        Eastbourne           7/2015            12/2012           16.9                  795.44                    
+14        Eskdalemuir          7/2015            12/2012           83.2                  1936.67                   
+15        Heathrow             7/2015            12/2012           28.3                  619.10                    
+16        Hurn                 7/2015            12/2012           55.9                  896.66                    
+17        Lerwick              7/2011            12/2012           27.9                  1276.18                   
+18        Leuchars             7/2015            12/2012           56.7                  748.42                    
+19        Lowestoft            7/2012            12/2012           29.3                  620.54                    
+20        Manston              8/2011            12/2012           22.6                  640.09                    
+21        Nairn                7/2015            12/2012           53.7                  679.00                    
+22        Newton Rigg          7/2015            12/2012           63.6                  996.74                    
+23        Oxford               7/2015            12/2012           34.4                  662.04                    
+24        Paisley              7/2015            12/2012           42.9                  1277.59                   
+25        Ringway              NaN               NaN               NaN                   NaN                       
+26        Ross-on-Wye          7/2015            12/2012           41.8                  750.71                    
+27        Shawbury             7/2015            12/2012           56.9                  669.73                    
+28        Sheffield            7/2015            12/2012           26.3                  789.27                    
+29        Southampton          NaN               NaN               NaN                   NaN                       
+30        Stornoway Airport    7/2016            12/2012           23.1                  1233.39                   
+31        Sutton Bonington     7/2015            12/2012           41.1                  601.77                    
+32        Tiree                7/2015            12/2012           10.2                  1329.63                   
+33        Valley               7/2015            12/2012           19.6                  875.47                    
+34        Waddington           7/2015            12/2012           36.7                  596.23                    
+35        Whitby               7/2015            12/2012           31.3                  752.67                    
+36        Wick Airport         7/2015            12/2012           36.7                  791.81                    
+37        Yeovilton            7/2015            12/2012           50.8                  707.94                    
