@@ -8,7 +8,7 @@ it's an application with three tabs to view weather data that's stored within se
 tab 1 - data summary
 --------------------
 
-this tab allows you to select a city to view a summray of data for what's selected
+this tab allows you to select a city to view a summary of data for what's selected
 
 you are then able to generate a report for all cities from here or click to go through to tab 2 for a better visualisation of the data
 
