@@ -1,0 +1,189 @@
+/* ROOT */
+
+.root {
+    /*-fx-background-color:lightgray;*/
+    -fx-background-color: #C8C096;
+    -fx-text-fill: rgba(255,255,255,1);
+}
+
+/* PANES */
+
+#thisisvbox {
+    /* //css instructions here */
+    -fx-background-color: #C8C096;
+    -fx-background-radius: 15;
+    -fx-border-width: 2;
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+}
+
+VBox, .reportHBox {
+    -fx-background-color: #2C3234;
+}
+
+.tab2label {
+    -fx-text-fill: white;
+}
+
+/* CHARTS */
+
+.chart {
+    /*-fx-background-image: url("icon.png");*/
+}
+
+.chart-content {
+}
+
+.chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.chart-legend {
+    -fx-background-color:  transparent;
+}
+
+.chart-legend-item-symbol {
+    -fx-background-radius: 0;
+}
+
+.chart-legend-item {
+    -fx-text-fill: white;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: lightgray;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: lightgray;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+
+.axis {
+    -fx-tick-label-fill: white;
+    -fx-font-family: Tahoma;
+}
+
+.axis-label {
+    -fx-text-fill: white;
+}
+
+/* DEFAULT CHART COLOURS */
+
+.default-color0.chart-series-line { -fx-stroke:  #ff8d30, white; }
+.default-color1.chart-series-line { -fx-stroke:  #4492ff, white; }
+.default-color2.chart-series-line { -fx-stroke:  #56d870, white; }
+.default-color3.chart-series-line { -fx-stroke:  #F92A2D, white; }
+.default-color4.chart-series-line { -fx-stroke:  #faff6d, white; }
+.default-color5.chart-series-line { -fx-stroke:  #a275ea, white; }
+.default-color6.chart-series-line { -fx-stroke:  #ff75f5, white; }
+.default-color7.chart-series-line { -fx-stroke:  #75faff, white; }
+.default-color8.chart-series-line { -fx-stroke:  #17ad00, white; }
+
+.default-color0.chart-bar { -fx-bar-fill: #ff8d30; }
+.default-color1.chart-bar { -fx-bar-fill: #4492ff; }
+.default-color2.chart-bar { -fx-bar-fill: #56d870; }
+.default-color3.chart-bar { -fx-bar-fill: #F92A2D; }
+.default-color4.chart-bar { -fx-bar-fill: #faff6d; }
+.default-color5.chart-bar { -fx-bar-fill: #a275ea; }
+.default-color6.chart-bar { -fx-bar-fill: #ff75f5; }
+.default-color7.chart-bar { -fx-bar-fill: #75faff; }
+.default-color8.chart-bar { -fx-bar-fill: #17ad00; }
+
+.default-color0.chart-line-symbol { -fx-background-color: #ff8d30, white; }
+.default-color1.chart-line-symbol { -fx-background-color: #4492ff, white; }
+.default-color2.chart-line-symbol { -fx-background-color: #56d870, white; }
+.default-color3.chart-line-symbol { -fx-background-color: #F92A2D, white; }
+.default-color4.chart-line-symbol { -fx-background-color: #faff6d, white; }
+.default-color5.chart-line-symbol { -fx-background-color: #a275ea, white; }
+.default-color6.chart-line-symbol { -fx-background-color: #ff75f5, white; }
+.default-color7.chart-line-symbol { -fx-background-color: #75faff, white; }
+.default-color8.chart-line-symbol { -fx-background-color: #17ad00, white; }
+
+/* BUTTONS */
+
+.button {
+    -fx-background-radius: 5;
+    -fx-background-color:#E46644;
+    -fx-border-color: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-text-fill: white;
+    -fx-background-insets: 1px;
+}
+
+.button:hover {
+    -fx-background-color:black;
+}
+
+/* COMBOBOX */
+
+.combo-box-base {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, white;
+    -fx-background-radius: 5;
+    -fx-background-insets: 1;
+}
+
+/* TAB PANE AND TABS */
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+    -fx-tab-min-width:90px;
+}
+
+.tab {
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab-pane .tab {
+    -fx-background-color: #E46644;
+    -fx-background-radius: 14 14 0 0;
+    -fx-border-width: 1 1 0 1;
+    -fx-border-style: solid;
+    -fx-border-color: transparent;
+    -fx-border-radius: 12 12 0 0;
+}
+
+.tab-pane:top *.tab-header-area {
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.416667em 0.166667em 0.0em 0.0em;
+}
+
+.tab-pane .tab:selected {
+    -fx-background-color: #2C3234;
+}
+.tab .tab-label {
+    -fx-alignment: CENTER;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+/* TEXT AREA */
+
+#txtAReport .content {
+    -fx-background-color: #C8C096;
+}
+
+#txtAReport {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-family: monospace;
+}

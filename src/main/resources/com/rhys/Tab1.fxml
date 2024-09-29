@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rhys.controllers.Tab1Controller">
+   <children>
+      <VBox fx:id="thisisvbox" alignment="CENTER" fillWidth="false" maxWidth="348.0" prefHeight="520.0" prefWidth="348.0">
+         <children>
+            <ImageView fx:id="imgLogo" fitHeight="82.0" fitWidth="144.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="291.0" text="Weather Data Viewer">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="306.0" text="Select the station you wish to view statistics of 2019 for:" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" HBox.hgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <ComboBox fx:id="cbStation" maxWidth="1.7976931348623157E308" onAction="#setLastYearStats" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.vgrow="ALWAYS" VBox.vgrow="ALWAYS">
+               <VBox.margin>
+                  <Insets left="40.0" right="40.0" />
+               </VBox.margin>
+            </ComboBox>
+            <HBox maxWidth="1.7976931348623157E308" prefHeight="100.0">
+               <children>
+                  <GridPane HBox.hgrow="ALWAYS">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="281.0" minWidth="10.0" prefWidth="257.0" />
+                        <ColumnConstraints hgrow="ALWAYS" maxWidth="86.0" minWidth="0.0" prefWidth="43.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label fx:id="lbMaxMean" text="------" GridPane.columnIndex="1" GridPane.halignment="RIGHT"></Label>
+                        <Label text="Total air frost days :" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Lowest monthly mean maximum temperature :" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Highest monthly mean maximum temperature :">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label text="Total rainfall :" GridPane.halignment="LEFT" GridPane.rowIndex="3">
+                           <VBox.margin>
+                              <Insets bottom="10.0" top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="lbMinMean" text="------" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1"></Label>
+                        <Label fx:id="lbTotalFrost" text="------" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="2"></Label>
+                        <Label fx:id="lbRainfall" text="------" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="3"></Label>
+                     </children>
+                  </GridPane>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <Label text="Further graphical insight:" GridPane.rowIndex="6">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#viewGraphs" text="Graphical View" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Label text="Produce and view a report for all stations: " GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="btnReport" mnemonicParsing="false" onAction="#makeReport" text="Generate and View Report" GridPane.columnIndex="1" GridPane.rowIndex="7">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </children>
+</VBox>
