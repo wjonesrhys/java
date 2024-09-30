@@ -6,13 +6,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import java.nio.file.Paths;
-import java.nio.file.Path;
-
 
 public class CSVReader {
     //location of the data folder
-    private static final String pathToData = "src/main/resources/com/rhys/data/";
+    private static final String pathToData = "java/weatherapp/src/main/resources/com/rhys/data/";
 
     //Obtain the important statistics for a station in particular for a specific year.
     public String statsForYear(String stationName, String year) {

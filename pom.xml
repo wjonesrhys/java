@@ -17,6 +17,7 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>${javafx.version}</version>
+            <transitive>true</transitive>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
